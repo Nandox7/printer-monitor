@@ -59,6 +59,7 @@ SOFTWARE.
 //******************************
 
 // OctoPrint / Repetier Monitoring -- Monitor your 3D OctoPrint or Repetier Server
+//#define USE_MOONRAKER_CLIENT       // Uncomment this line if you use the Moonraker service, this is used by Klipper
 //#define USE_REPETIER_CLIENT       // Uncomment this line to use the Repetier Printer Server -- OctoPrint is used by default and is most common
 String PrinterApiKey = "";   // ApiKey from your User Account on OctoPrint / Repetier
 String PrinterHostName = "octopi";// Default 'octopi' -- or hostname if different (optional if your IP changes)
